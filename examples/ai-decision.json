@@ -1,0 +1,6 @@
+{
+  "action": "save_lead",
+  "intent": "automation_request",
+  "priority": "high",
+  "confidence_score": 0.87
+}

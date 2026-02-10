@@ -1,0 +1,6 @@
+[
+  { "step": "Validation", "status": "Success" },
+  { "step": "AI Qualification", "status": "Success" },
+  { "step": "CRM", "status": "Success" },
+  { "step": "Email", "status": "Success" }
+]
