@@ -126,6 +126,8 @@ A built‑in result page displays the **full execution timeline**, making AI dec
 - Each pipeline run appends a new log entry
 - The **result page fetches and displays the latest execution log only**
 
+---
+
 ## API Usage (External Platforms)
 
 ---
