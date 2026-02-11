@@ -120,7 +120,15 @@ A built‑in result page displays the **full execution timeline**, making AI dec
 
 ---
 
+### How Logging Works in This Demo
+
+- Execution logs are **persisted in Google Sheets** (separate tab: `ProcessLog`)
+- Each pipeline run appends a new log entry
+- The **result page fetches and displays the latest execution log only**
+
 ## API Usage (External Platforms)
+
+---
 
 ### Endpoint
 
@@ -196,9 +204,14 @@ The model can be upgraded easily if more complex reasoning is required.
 
 ## Important Notes
 
-- The admin execution timeline is **demo‑focused** and currently stores only the latest run.
-- In production, logs should be persisted in a database or logging system.
-- This project is intentionally modular so each component can be swapped based on client needs.
+- The result page intentionally displays only the most recent execution
+- Full historical logs are retained in Google Sheets
+- This mirrors how production systems often separate:
+  - operational logs
+  - admin dashboards
+  - long-term storage
+
+This project is intentionally modular so each component can be swapped based on client needs.
 
 ---
 
